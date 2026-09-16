@@ -32,7 +32,7 @@ if not os.path.exists(csv_file):
     print(f"[!] '{csv_file}' not found in the current directory.")
     print("[*] Creating a sample 'spam.csv' so you can run the code immediately...")
     sample_data = {
-        "label": [v
+        "label": [
             "spam", "ham", "spam", "ham", "spam", "ham", "spam", "ham",
             "spam", "ham", "spam", "ham", "spam", "ham", "spam", "ham",
             "spam", "ham", "spam", "ham", "spam", "ham", "spam", "ham"
